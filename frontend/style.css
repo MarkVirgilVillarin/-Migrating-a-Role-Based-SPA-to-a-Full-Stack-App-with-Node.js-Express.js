@@ -1,0 +1,20 @@
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+body.not-authenticated .nav-logged-in {
+  display: none !important;
+}
+
+body.authenticated .nav-logged-out {
+  display: none !important;
+}
+
+main {
+  max-width: 720px;
+}
+
